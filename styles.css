@@ -1,0 +1,39 @@
+.Calculadora {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 200px auto;
+  padding: 10px;
+  background-color: #071952;
+}
+
+.visor {
+  width: 295px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.btn {
+  width: 62px;
+  height: 49px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #088395;
+  color: #f2f7a1;
+  cursor: pointer;
+}
+
+.limpiar {
+  width: 48.5%;
+  margin: 0 0 30px 0 !important;
+}
+.borrar {
+  width: 49%;
+  margin: 0 0 30px 0 !important;
+}
