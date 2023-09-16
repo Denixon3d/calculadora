@@ -27,13 +27,22 @@
   background-color: #088395;
   color: #f2f7a1;
   cursor: pointer;
+  transition: all 2ms;
 }
 
-.limpiar {
+.reset {
   width: 48.5%;
   margin: 0 0 30px 0 !important;
 }
 .borrar {
   width: 49%;
   margin: 0 0 30px 0 !important;
+}
+
+/*EFECTOS OVER DE LOS BOTONES*/
+
+.btn:hover {
+  background-color: #35a29f;
+  /*box-shadow: 2px 2px 2px 2px #f2f7a1;*/
+  box-shadow: 3px 3px #f2f7a1;
 }
